@@ -63,102 +63,129 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
-  height:;
-  padding:;
-  display:;
 }
 
-header {
-  /*display: inline-block;
-  width: 900px;*/
-}
 .headerBox {
-  
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  justify-content: ;
   margin: 20px 0px;
 }
 nav a {
-  /*display: inline-block;*/
   text-decoration: none;
-  padding: 0px 0px 50px 20px ;
+  padding: 0px 0px 50px 0px ;
   width: 80px;
   margin: 10px 0px;
   color: black;
 }
 .logo {
-  /*display: inline-block;*/
   float: right;
 }
 
-
-
-.titleSection {
-  /*display: inline-block;*/
-  /*border: 1px solid;*/
-  display: flex;
-  justify-content:space-between;
-  width: 100%;
-  margin: 0px 0px 20px;
+.title section{
+  
 }
-.halfWidth {
-  flex-direction: column;
-  /*margin: 0px 0px 100px;*/
+.services-header-img {
+  width: 1000px;
 }
 .titleSection h1 {
-  margin: 0px 0px 0px 20px;
-  font-size: 90px;
-  text-align: center;
-}
-.titleSection button {
-  
-  margin: 0px 0px 0px 150px;
-}
-.titleSection div {
-  /*display: inline-block;*/
-}
-.titleSection img {
-  padding: 0px 100px 0px 0px;
-  float: right;
+  font-size: 30px
 }
 
-
-
-.flatBox {
-  border: 1px solid;
-  margin: 0px 0px 30px;
-}
-
-
-
-.paragraphs h2 {
-  font-size: 20px;
-  margin: 0px 20px;
-}
-.paragraphs {
+.titleSection p {
   font-size: 15px;
   font-weight: bold;
-  column-count: 2;
+  padding:20px;
 }
-.middle-img {
+.line {
+  border:1px solid;
+  width: 100%;
   margin: 20px;
 }
 
 
-
-.bttmPrgphs {
-  column-count: 3;
-  margin: 20px 0px;
+.middlePage {
+  display: flex;
+  flex-flow: row wrap;
 }
-.phn {
-  margin: 20px 0px;
+.digitalDesign {
+  border: 1px solid;
+  height: auto;
+  width: 45%;
+  margin: 10px;
+  background: lightgrey;
+  font-weight:bold;
+}
+.ux {
+  border: 1px solid;
+  height: auto;
+  width: 45%;
+  margin: 10px;
+  background: lightgrey;
+  font-weight:bold;
+}
+.marketing {
+  border: 1px solid;
+  height: auto;
+  width: 45%;
+  margin: 10px;
+  background: lightgrey;
+  font-weight:bold;
+}
+.webDev {
+  border: 1px solid;
+  height: auto;
+  width: 45%;
+  margin: 10px;
+  background: lightgrey;
+  font-weight:bold;
+}
+.ios {
+  border: 1px solid;
+  height: auto;
+  width: 45%;
+  margin: 10px;
+  background: lightgrey;
+  font-weight:bold;
+}
+.android {
+  border: 1px solid;
+  height: auto;
+  width: 45%;
+  margin: 10px;
+  background: lightgrey;
+  font-weight:bold;
+}
+
+
+.facts {
+  
+  font-size:18px;
+  font-weight:bold;
+  width: 45%;
+}
+.facts h2 {
+  font-size:20px;
+  
+}
+ul {
+  list-style-type: disc;
+  margin: 20px;
+}
+li {
+  margin: 10px
+}
+.outsideBox {
+  display: flex;
 }
 .copyRight {
+  display: flex;
+  justify-content: center;
   margin: 20px;
-  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
 }
