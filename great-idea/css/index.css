@@ -69,15 +69,16 @@ body {
   width: 1000px;
   margin: 0 auto;
   }
-
 .headerBox {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   margin: 20px 0px;
 }
 .navBox{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 87%;
 }
 nav a {
@@ -93,32 +94,28 @@ nav a:hover{
   float: right;
 }
 
-
-
 .titleSection {
-  /*display: inline-block;*/
-  /*border: 1px solid;*/
   display: flex;
   justify-content:space-between;
+  align-items: center;
   width: 100%;
-  margin: 0px 0px 20px;
+
 }
 .halfWidth {
+  display: flex;
   flex-direction: column;
-  /*margin: 0px 0px 100px;*/
+  align-items: center;
+  
 }
 .titleSection h1 {
-  margin: 0px 0px 0px 20px;
   font-size: 90px;
   text-align: center;
 }
 .titleSection button {
-  
-  margin: 0px 0px 0px 150px;
+
 }
 
 .titleSection img {
-  padding: 0px 100px 0px 0px;
   float: right;
 }
 
