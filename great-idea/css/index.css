@@ -68,31 +68,26 @@ h1, h2, h3, h4, h5 {
 body {
   width: 1000px;
   margin: 0 auto;
-  height:;
-  padding:;
-  display:;
-}
+  }
 
-header {
-  /*display: inline-block;
-  width: 900px;*/
-}
 .headerBox {
-  
   display: flex;
   justify-content: space-between;
   margin: 20px 0px;
 }
+.navBox{
+  display: flex;
+  justify-content: space-between;
+  width: 87%;
+}
 nav a {
-  /*display: inline-block;*/
   text-decoration: none;
-  padding: 0px 0px 50px 20px ;
+  padding:20px;
   width: 80px;
-  margin: 10px 0px;
   color: black;
 }
+
 .logo {
-  /*display: inline-block;*/
   float: right;
 }
 
@@ -119,9 +114,7 @@ nav a {
   
   margin: 0px 0px 0px 150px;
 }
-.titleSection div {
-  /*display: inline-block;*/
-}
+
 .titleSection img {
   padding: 0px 100px 0px 0px;
   float: right;
