@@ -203,3 +203,23 @@ nav a:hover{
   margin: 1rem;
   font-size: 1rem;
 }
+.bttmSect{
+  display: flex;
+  justify-content: space-evenly;
+}
+.bttmWords{
+  width: 48%;
+}
+.bttmWords h2{
+  font-size: 1.2rem;
+}
+.bttmWords p{
+  margin: 1rem 0;
+}
+.bttmWords li{
+  list-style-type: circle;
+  margin: 0 0 0 1rem;
+}
+.services-info-img{
+  width: 48%;
+}
