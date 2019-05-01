@@ -84,9 +84,11 @@ nav a {
   text-decoration: none;
   padding:20px;
   width: 80px;
-  color: black;
+  color: grey;
 }
-
+nav a:hover{
+  color:black;
+}
 .logo {
   float: right;
 }
