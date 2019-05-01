@@ -112,18 +112,21 @@ nav a:hover{
   text-align: center;
 }
 .titleSection button {
-
+  background: white;
+  height: 2rem;
+  width: 7rem;
+  border: 1px solid black;
+  font-family: 'Titillium web';
+  font-size: 1rem;
 }
-
 .titleSection img {
   float: right;
 }
 
 
-
 .flatBox {
   border: 1px solid;
-  margin: 0px 0px 30px;
+  margin: 20px 0px;
 }
 
 
