@@ -63,4 +63,163 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+  }
+.headerBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 20px 0px;
+}
+.navBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 87%;
+}
+nav a {
+  text-decoration: none;
+  padding:20px;
+  width: 80px;
+  color: grey;
+}
+nav a:hover{
+  color:black;
+}
+.logo {
+  float: right;
+}
+
+.titleSection {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+
+}
+.halfWidth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.titleSection h1 {
+  font-size: 90px;
+  text-align: center;
+}
+.titleSection button {
+  background: white;
+  height: 2rem;
+  width: 7rem;
+  border: 1px solid black;
+  font-family: 'Titillium web';
+  font-size: 1rem;
+}
+.titleSection img {
+  float: right;
+}
+
+.flatBox {
+  border: 1px solid;
+  margin: 2rem 0;
+}
+
+.paragraphs h2 {
+  font-size: 20px;
+  margin: 0px 20px;
+}
+.paragraphs {
+  font-size: 15px;
+  font-weight: bold;
+  column-count: 2;
+}
+.midImgBox{
+  display: flex;
+  justify-content: center;
+}
+.middle-img {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.bttmPrgphs {
+  column-count: 3;
+  font-weight: bold;
+}
+.phn {
+  margin: 1rem 0px;
+}
+.copyRight {
+  margin: 2rem;
+  text-align: center;
+}
+
+/* services.html */
+
+.servHeadImg {
+  display: flex;
+  justify-content: center;
+}
+.services-header-img{
+  width: 100%;
+}
+.services{
+  margin: 2rem 0 0 0;
+}
+.services h1{
+  font-size: 2rem;
+}
+.midPage{
+  display: flex;
+  flex-wrap: wrap;
+}
+.servMidPage{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  height: 15rem;
+  width: 49.1%;
+  margin: .2rem;
+  justify-content: center;
+  align-items: flex-start;
+  background: lightgrey;
+}
+.servMidPage h2{
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+.servMidPage p{
+  margin: 1rem;
+  font-size: 1rem;
+}
+.servMidPage button{
+  height: 3rem;
+  width: 7rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  font-size: 1rem;
+}
+.bttmSect{
+  display: flex;
+  justify-content: space-evenly;
+}
+.bttmWords{
+  width: 48%;
+}
+.bttmWords h2{
+  font-size: 1.2rem;
+}
+.bttmWords p{
+  margin: 1rem 0;
+}
+.bttmWords li{
+  list-style-type: circle;
+  margin: 0 0 0 1rem;
+}
+.services-info-img{
+  width: 48%;
+}
