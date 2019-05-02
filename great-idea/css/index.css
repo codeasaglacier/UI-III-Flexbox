@@ -130,7 +130,6 @@ nav a:hover{
 
 .paragraphs h2 {
   font-size: 20px;
-  margin: 0px 20px;
 }
 .paragraphs {
   font-size: 15px;
@@ -222,4 +221,14 @@ nav a:hover{
 }
 .services-info-img{
   width: 48%;
+}
+
+@media (max-width 500px){
+  body{
+    display: flex;
+    margin: auto;
+  }
+
+
+
 }
